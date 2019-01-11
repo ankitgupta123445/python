@@ -1,0 +1,11 @@
+ammount=int(input("enter the ammount which was withdrawn"))
+ammount=ammount-100
+th=ammount//2000
+ammount=ammount%2000
+f=ammount//500
+ammount=ammount%500
+h=ammount//100
+h=h+1
+print("no. of 2000 rupees notes =",th)
+print("no. of 500 rupees notes=",f)
+print("no. of 100 rupees notes=",h)
